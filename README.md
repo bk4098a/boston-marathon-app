@@ -6,6 +6,19 @@ Built with **R and Shiny**, the app allows users to filter runners by age group,
 
 ---
 
+## 📊 Data Source
+
+The dataset was retrieved from the [Score Network](https://data.scorenetwork.org/running/boston_marathon_2023.html), which provides public race data from major marathons.
+
+- 📅 Year: 2023
+- 🏃‍♂️ Total Runners: ~26,000
+- 🎯 Key Variables Used:
+  - `bib_number` – Assigned based on qualifying time
+  - `finish_net_minutes` – Net chip time in minutes
+  - `gender`, `age_group` – Demographics for segmentation
+
+---
+
 ## 📌 Key Questions
 
 - 📉 Does a lower bib number lead to a faster finish time?
